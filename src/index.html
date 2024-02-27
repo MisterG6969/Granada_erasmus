@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Heavenly Delights Bakery</title>
+    <link rel="stylesheet" href="./Styles/look.scss">
+    <script src="./scripts/scripts.js"></script>
+</head>
+<body>
+    <nav>
+        <a href="products.html">Products</a>
+        <a href="about.html">About Us</a>
+        <a href="contact.html">Contact</a>
+        <a href="cart.html">Shopping Cart</a>
+    </nav>
+    <header>
+        <h1>Heavenly Delights Bakery</h1>
+    </header>
+    
+    <div class="container">
+        <h2 style="font-size: 25px;">Welcome to Heavenly Delights Bakery</h2>
+        <p style="font-size: 18px;">Heavenly Delights Bakery offers a celestial experience for your taste buds, where every bite is a journey to sweet serenity. Nestled in the heart of Sugarville, our bakery is a sanctuary of indulgence, where heavenly aromas and delectable treats beckon all who seek blissful delights.
+
+            From heavenly cakes adorned with fluffy clouds of frosting to divine pastries crafted with care, each creation is a testament to our passion for perfection. Our bakers, artisans of heavenly confections, pour their hearts into every batch, ensuring that each morsel is a taste of paradise.
+            
+            Step into our bakery and be transported to a realm of sugary enchantment. Let our heavenly treats uplift your spirits and leave you craving for more. Whether you're celebrating a special occasion or simply treating yourself, Heavenly Delights Bakery promises an experience that's truly divine.</p>
+        </div>
+        <div class="slideshow-container">
+            <!-- Previous and next buttons -->
+            <button class="prev" onclick="plusSlides(-1)">&#10094;</button>
+            <button class="next" onclick="plusSlides(1)">&#10095;</button>
+
+            <!-- Images -->
+            <div class="mySlides">
+                <img src="./media/bakery1.webp" style="width:100%" style="height: 500px;">
+            </div>
+        
+            <div class="mySlides">
+                <img src="./media/bakery2.jpg" style="width:100%" style="height: 500px;">
+            </div>
+        
+            <div class="mySlides">
+                <img src="./media/bakery3.jpg" style="width:100%" style="height: 500px;">
+            </div>
+        
+        </div>
+        <br>
+        
+        <!-- The dots/bullets/indicators -->
+        <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+        </div>
+</body>
+</html>

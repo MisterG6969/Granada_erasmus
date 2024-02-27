@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Heavenly Delights Bakery - Products</title>
+    <link rel="stylesheet" href="./Styles/look.scss">
+    <script src="./scripts/scripts.js"></script>
+</head>
+<body>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About Us</a>
+        <a href="contact.html">Contact</a>
+        <a href="cart.html">Shopping Cart</a>
+    </nav>
+    <header>
+        <h1>Heavenly Delights Bakery</h1>
+    </header>
+    <div class="container" id="products">
+        <h2>Our Products</h2>
+        <div class="product">
+            <img src="./media/paine.jpg" alt="Bread">
+            <h3>Bread</h3>
+            <p>Freshly baked bread made with organic ingredients.</p>
+            <p>$3.99</p>
+            <button onclick="addToCart('Bread',3.99)">Add to Cart</button>
+        </div>
+        <div class="product">
+            <img src="./media/croissant.jpg" alt="Croissant">
+            <h3>Croissant</h3>
+            <p>Flaky and buttery croissants that melt in your mouth.</p>
+            <p>$2.99</p>
+            <button onclick="addToCart('Croissant',2.99)">Add to Cart</button>
+        </div>
+        <div class="product">
+            <img src="./media/cake.jpg" alt="Cake">
+            <h3>Cake</h3>
+            <p>Celebrate your special occasions with our delicious cakes.</p>
+            <p>$19.99</p>
+            <button onclick="addToCart('Cake',19.99)">Add to Cart</button>
+        </div>
+        <div class="product">
+            <img src="./media/cookie.jpg" alt="Chocolate Chip Cookie" style="height: 310px;">
+            <h3>Chocolate Chip Cookie</h3>
+            <p>Indulge in the classic taste of our chocolate chip cookies, made with premium ingredients.</p>
+            <p>$1.99</p>
+            <button onclick="addToCart('Chocolate Chip Cookie', 1.99)">Add to Cart</button>
+        </div>
+        <div class="product">
+            <img src="./media/muffin.jpg" alt="Blueberry Muffin" >
+            <h3>Blueberry Muffin</h3>
+            <p>Enjoy our moist and flavorful blueberry muffins, bursting with juicy blueberries in every bite.</p>
+            <p>$2.99</p>
+            <button onclick="addToCart('Blueberry Muffin', 3.49)">Add to Cart</button>
+        </div> 
+        <div class="product">
+            <img src="./media/cinnamon.webp" alt="Cinnamon Roll">
+            <h3>Cinnamon Roll</h3>
+            <p>Delight your taste buds with our freshly baked cinnamon rolls, topped with a rich cream cheese frosting.</p>
+            <p>$3.49</p>
+            <button onclick="addToCart('Cinnamon Roll', 6.20)">Add to Cart</button>
+        </div>
+                       
+    </div>
+</body>
+</html>
